@@ -12,7 +12,7 @@ const getStyleName = (btn) => {
   return className[btn];
 }
 
-class Button extends React.Component {
+class Button extends React.PureComponent {
   render() {
     return (
       <button className={`${getStyleName(this.props.value)} button`}>{this.props.value}</button>
