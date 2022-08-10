@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+
 class Calculator extends React.Component {
   render() {
     return (
-      <div className='calculator'>0</div>
+      <div className="calculator">0</div>
     );
   }
 }

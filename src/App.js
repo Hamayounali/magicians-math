@@ -1,7 +1,7 @@
-import Wrapper from "./components/Wrapper";
-import Calculator from "./components/Calculator";
-import ButtonBox from "./components/ButtonBox";
-import Button from "./components/Button";
+import Wrapper from './components/Wrapper';
+import Calculator from './components/Calculator';
+import ButtonBox from './components/ButtonBox';
+import Button from './components/Button';
 
 const btnValues = [
   ['A/C', '+/-', '%', '/'],
@@ -19,6 +19,7 @@ function App() {
           {btnValues.flat().map((btn, i) => (
             <Button
               value={btn}
+              /* eslint-disable */
               key={i}
             />
           ))}
