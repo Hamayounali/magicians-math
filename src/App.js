@@ -1,3 +1,4 @@
+import React from 'react';
 import Wrapper from './components/Wrapper';
 import Calculator from './components/Calculator';
 import ButtonBox from './components/ButtonBox';
