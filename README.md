@@ -11,7 +11,7 @@ https://hamayounali.github.io/magicians-math/
 Clone this repository
 
 $ git clone git@github.com:Hamayounali/magicians-math.git
-$ cd leaderboard
+$ cd magicians-math
 
 Run the live server or open index.html with your browser
 
