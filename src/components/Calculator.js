@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Textfit } from 'react-textfit';
+import { CalcContext } from '../context/CalcContext';
 
-class Calculator extends React.PureComponent {
-  render() {
-    return (
-      <div className="calculator">0</div>
-    );
-  }
+function Calculator() {
+  const { calc } = useContext(CalcContext);
+
+  return (
+    <Textfit className="calculator" max={30} mode="single">{calc.num ? calc.num : calc.res}</Textfit>
+  );
 }
 
 export default Calculator;

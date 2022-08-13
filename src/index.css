@@ -61,3 +61,7 @@ body {
 .opt {
   background-color: orange;
 }
+
+.button:hover {
+  background-color: #05b4e9;
+}

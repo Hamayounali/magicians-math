@@ -3,6 +3,7 @@ import Wrapper from './components/Wrapper';
 import Calculator from './components/Calculator';
 import ButtonBox from './components/ButtonBox';
 import Button from './components/Button';
+import CalcProvider from './context/CalcContext';
 
 const btnValues = [
   ['A/C', '+/-', '%', '/'],
@@ -13,7 +14,7 @@ const btnValues = [
 ];
 function App() {
   return (
-    <div>
+    <CalcProvider>
       <Wrapper>
         <Calculator />
         <ButtonBox>
@@ -26,7 +27,7 @@ function App() {
           ))}
         </ButtonBox>
       </Wrapper>
-    </div>
+    </CalcProvider>
   );
 }
 
