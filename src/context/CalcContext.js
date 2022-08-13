@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react';
 import PropTypes from 'prop-types';
 
-export const CalcContext = createContext();
+export const CalculaterContext = createContext();
 
 function CalcProvider({ children }) {
   const [calc, setCalc] = useState({
@@ -14,9 +14,9 @@ function CalcProvider({ children }) {
   const providerValue = { calc, setCalc };
 
   return (
-    <CalcContext.Provider value={providerValue}>
+    <CalculaterContext.Provider value={providerValue}>
       {children}
-    </CalcContext.Provider>
+    </CalculaterContext.Provider>
   );
 }
 
