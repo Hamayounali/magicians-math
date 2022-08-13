@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
-import { CalcContext } from '../context/CalcContext';
+import { CalculaterContext } from '../context/CalcContext';
 
 const getStyleName = (btn) => {
   const className = {
@@ -15,7 +15,7 @@ const getStyleName = (btn) => {
 };
 
 function Button({ value }) {
-  const { calc, setCalc } = useContext(CalcContext);
+  const { calc, setCalc } = useContext(CalculaterContext);
   const commaClick = () => {
     setCalc({
       ...calc,
