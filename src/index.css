@@ -1,20 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-* {
-  margin: 1px;
-  padding: 1px;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-  background-color: #f4f4f4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Roboto', sans-serif;
-}
-
 .calculator {
   height: 4rem;
   margin-bottom: 1rem;
@@ -64,4 +48,31 @@ body {
 
 .button:hover {
   background-color: #05b4e9;
+}
+
+.logo {
+  padding-left: 10px;
+  font-size: xx-large;
+}
+
+.letsdo {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.menu {
+  padding-right: 30px;
+}
+
+p {
+  font-size: large;
+  line-height: 200%;
+}
+
+.welcome {
+  padding-top: 2rem;
+}
+
+.Quate {
+  padding-top: 4rem;
 }
