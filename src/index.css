@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.calculator {
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  text-align: right;
+}
+
+.wrapper {
+  background-color: rgb(253, 249, 249);
+  width: 30rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 10px 16px -3px rgba(0, 0, 0, 0.1);
+}
+
+.buttonBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.2rem;
+}
+
+.button {
+  background-color: #ddcece;
+  height: 3.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: rgb(24, 24, 24);
+  font-size: 1.5rem;
+  border: none;
+}
+
+.zero {
+  grid-column: 1/3;
+}
+
+.opt {
+  background-color: orange;
+}
+
+.button:hover {
+  background-color: #05b4e9;
+}
+
+.logo {
+  padding-left: 10px;
+  font-size: xx-large;
+}
+
+.letsdo {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.menu {
+  padding-right: 30px;
+}
+
+p {
+  font-size: large;
+  line-height: 200%;
+}
+
+.welcome {
+  padding-top: 2rem;
+}
+
+.Quate {
+  padding-top: 4rem;
+}
