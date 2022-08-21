@@ -35,9 +35,9 @@ Run the live server or open index.html with your browser
 # Authors
 👤 Hamayoun Ali
 
-• GitHub: @hamayounali
+• [GitHub](https://github.com/Hamayounali)
 
-• Twitter: @hamayounali6
+• [Twitter](https://twitter.com/hamayounAli6)
 
 
 # Show your support
